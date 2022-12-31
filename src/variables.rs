@@ -65,7 +65,7 @@ let x = 6; // x is rebound to 6
 let x = x + 1; // x is rebound to 7
  */
 
-fn main() {
+pub(crate) fn variables() {
     let x = 5; // x is bound to 5
     println!("The value of x is: {}", x);
     let x = 6; // x is rebound to 6

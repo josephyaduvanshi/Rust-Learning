@@ -1,5 +1,6 @@
-
-
+mod helloworld;
+mod variables;
 fn main() {
-    println!("Hello, world!");
+    helloworld::helloworld();
+    variables::variables();
 }

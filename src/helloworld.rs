@@ -1,4 +1,4 @@
-fn main() {
+pub(crate) fn helloworld() {
     /*
         The anatomy of a Rust program:
         1. The main function is the entry point of the program.
